@@ -24,21 +24,21 @@ A comprehensive Point of Sale (POS) system designed for retail and restaurant bu
 
 1. Clone the repository to your web server directory:
    ```
-   git clone https://github.com/yourusername/point-of-sale.git
+   git clone https://github.com/WILIOP-666/POS-PH.git
    ```
 
 2. Create a MySQL database for the application
 
 3. Import the database schema from `database/schema.sql`:
    ```
-   mysql -u username -p your_database_name < database/schema.sql
+   mysql -u username -p pos_db.sql < database/schema.sql
    ```
 
 4. Configure the database connection in `config/database.php`
 
 5. Access the application through your web browser:
    ```
-   http://localhost/POINT OF SALE2/
+   http://localhost/POS-PH/
    ```
 
 6. Log in with the default admin credentials:
